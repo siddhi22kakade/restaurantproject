@@ -1,0 +1,31 @@
+.dish{
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+}
+
+.img{
+    display: inline-block;
+    
+}
+.img2{
+    display: inline-block;
+    
+}
+.pic{
+    border-radius: 50%;
+    width: 40%;
+    height: 50%;
+    margin: 15px auto;
+    
+}
+
+.nav-item{
+    display: inline-block;
+
+}
+.nav-link active{
+    color: black;
+    font-size: medium;
+    font-family: cursive;
+}

@@ -1,0 +1,119 @@
+
+.btn{
+    background-color: lightgray;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    width: 10%;
+    border-radius: 10px;
+    
+}
+
+.best{
+    position: absolute;
+    top: 0;
+    background-color: rgb(255, 250, 244);
+    color: red;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 3px 12px;
+    margin: 10px;
+}
+.must{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(246, 255, 244);
+    color: rgb(128, 15, 0);
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 3px 12px;
+    margin: 10px;
+}
+.card-header{
+    position: relative;
+}
+.box{
+    position: relative;
+    display: flex;
+    gap:5%;
+}
+.card{
+    
+    border: 2px solid lightgray;
+    border-radius: 14px;
+    width: 270px;
+    margin: 10px;
+    padding: 10px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+.bookmark{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    bottom: -35px;
+    right: 13px;
+    color: black;
+}
+.like{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 12px;
+    right: 13px;
+}
+.star{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    bottom: -35px;
+    right: 70px;
+    color: green;
+}
+.text{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    bottom: -50px;
+    right: 50px;
+    color: green;
+}
+.off{
+        position: absolute;
+        bottom: 0;
+        background-color: blue;
+        color: white;
+        font-size: 14px;
+        border-radius: 20px;
+        padding: 3px 12px;
+        margin: 10px;
+}
+.time{
+    background-color: darkgray;
+    position: absolute;
+    width: 50px;
+    bottom:10px;
+    right: 13px;
+    color: black;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 10px;
+
+}
+.add{
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    bottom: -90px;
+    right: 40px;
+    color: green;
+    
+   
+    
+}

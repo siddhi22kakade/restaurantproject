@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Restaurant</title>
+      <link rel="stylesheet" href="./restaurant.css" >
+      <!---CSS-CDN----->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+      crossorigin="anonymous">
+
+      <!----JS-CDN------>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      </head>
+      <body>
+        <!-----Navbar------>
+            <nav class="navbar navbar-expand-lg bg-danger">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Restaurant</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Help</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Orders</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                      </li>
+                      
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+
+              <!--------Carousel--------->
+
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="D:\rest\assets\img1.jpg" class="d-block w-100" alt="Indian Dish" >
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><b>Best of Yummy..!!</b></h5>
+                      <p>Grab aromatic Food at <b>min. 50% OFF</b>.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="D:\rest\assets\img2.jpg" class="d-block w-100" alt="Cake" >
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><b>Unlimited Discounts</b></h5>
+                      <p>on your party treats!!..ORDER NOW..</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="D:\rest\assets\img3.jpg" class="d-block w-100" alt="Junk Food" >
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><b>Late Night Cravings?</b></h5>
+                      <p> Enjoy food at <b>up to 60% OFF.</b></p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <br>
+              <br>
+              <div class="dish">
+              <p>___________What's on your Mind?____________</p>
+                <div class="img">
+                  <div class="img1">
+                    <div class="img2">
+                  <a href="biryani.html"><img src="./assets/biryani.jpg" class="pic" alt=""></a>
+                  <div>
+                    <p>Biryani</p>
+                  </div>
+                  </div>
+
+                  <div class="img2">
+                  <a href="pizza.html"><img src="./assets/pizza.jpg" class="pic" alt=""></a>
+                  <div>
+                    <p>Pizza</p>
+                  </div>
+                  </div>
+
+                  <div class="img2">
+                  <a href="burger.html"><img src="./assets/burger.jpg" class="pic" alt=""></a>
+                  <div>
+                  <p>Burger</p>
+                  </div>
+                  </div>
+
+                  <div class="img2">
+                  <a href="chinees.html"><img src="./assets/chinees.jpg" class="pic" alt=""></a>
+                  <div>
+                    <p>Chineese</p>
+                  </div>
+                  </div>
+
+                  <div class="img2">
+                    <img src="./assets/north indian.jpg" class="pic" alt="">
+                    <div>
+                      <p>North Indian</p>
+                    </div>
+                  </div>
+
+                  <div class="img2">
+                    <img src="./assets/south indian.jpg" class="pic" alt="">
+                    <div>
+                      <p>South Indian</p>
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="img1">
+                    <div class="img2">
+                  <a href="cake.html"><img src="./assets/cake.jpg" class="pic" alt=""></a>
+                  <div>
+                    <p>Cake</p>
+                  </div>
+                  </div>
+
+                  <div class="img2">
+                  <a href="shakes.html"><img src="./assets/shake1.jpg" class="pic" alt=""></a>
+                  <div>
+                    <p>Shakes</p>
+                  </div>
+                  </div>
+
+                  <div class="img2">
+                  <a href="ice-cream.html"><img src="./assets/ice-cream.jpg" class="pic" alt=""></a>
+                  <div>
+                    <p>Ice-Cream</p>
+                  </div>
+                  </div>
+
+                  <div class="img2">
+                  <img src="./assets/momos.jpg" class="pic" alt="">
+                  <div>
+                    <p>Momos</p>
+                  </div>
+                  </div>
+
+                  <div class="img2">
+                    <img src="./assets/sweet.jpg" class="pic" alt="">
+                    <div>
+                      <p>Sweet</p>
+                    </div>
+                    </div>
+  
+                    <div class="img2">
+                      <img src="./assets/breakfast.jpg" class="pic" alt="">
+                      <div>
+                        <p>Breakfast</p>
+                      </div>
+                      </div>
+                  </div>
+                  </div>
+                  
+                </div>
+              </div>
+      </body>
+</html>      
